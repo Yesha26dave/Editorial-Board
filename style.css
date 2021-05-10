@@ -1,0 +1,216 @@
+/*styles for Editorial Board Page*/
+body {
+  background-color: #edeef7;
+  margin: auto;
+}
+
+ul {
+  list-style-type: square;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 25px 0;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+  color: #1a1a2e;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  color: #b34180;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  margin-top: 60px;
+  border-style: dotted;
+  border-color: #b34180;
+  border-width: 6px;
+  border-bottom: none;
+  width: 20%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #3bc3fd;
+}
+
+#container {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0 0;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background:
+    color: #ffffff;
+  margin: 0 5px;
+  padding: 0;
+  border-collapse: collapse;
+  position: relative;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+#logo2 {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+#header h1 {
+  margin: 36px 0 0 20px;
+  padding: 0;
+  font-size: 29px;
+  line-height: 30px;
+}
+
+/* Begin  navigation bar. */
+#navbar {
+  width: 100%;
+  height: 60px;
+  margin: 0 5px 0 0;
+  background-color: #323232;
+  border: 1px solid #1b262c;
+}
+
+#navbar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: #323232;
+}
+
+#navbar a {
+  background-color: #323232;
+  text-decoration: none;
+  height: 35px;
+  padding: 0 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block !important;
+  float: right !important;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.2rem;
+  font-weight: Light;
+  color: #f6f5f5;
+}
+
+#nav-h2 {
+  font-size: 2rem;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #f6f5f5;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+#navbar a:hover {
+  background: #3bc3fd;
+  background-position: 0 -30px;
+  color: #000;
+}
+
+.nav-li {
+  margin-left: 10px;
+}
+
+/* End main navigation menu. */
+/* The Editor in chief content */
+.editor-in-chief {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.editor-in-chief-pic {
+  margin: 0 40px 35px 0;
+  float: left;
+}
+
+.editor-in-chief-para {
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/*Other content*/
+.other-content {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.pic {
+  margin: 0 0 35px 40px;
+  float: right;
+}
+
+.para {
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #323232;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: #f6f5f5;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.footer p {
+  padding: 10px;
+  margin: 0;
+  font-size: 1rem;
+  color: #3bc3fd;
+  font-family: 'Montserrat', sans-serif;
+}
